@@ -1,0 +1,1 @@
+web: vendor/bin/telegram-news-omsk web/
