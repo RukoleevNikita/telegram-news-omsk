@@ -1,1 +1,1 @@
-web: vendor/bin/telegram-news-omsk web/
+web: index.php
