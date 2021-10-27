@@ -28,6 +28,13 @@ if (empty($data['message']['chat']['id'])) {
  
 define('TOKEN', '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11');
 
+file_put_contents(__DIR__ . '/message.txt', print_r($data, true));
+
+if (!empty($data['message']['text'])) {
+	$text = $data['message']['text'];
+	echo $text;
+}
+
     echo("$data");
     echo("21");
 
