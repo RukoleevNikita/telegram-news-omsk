@@ -26,6 +26,9 @@
      
     define('TOKEN', '2020484979:AAHSsZuXd_rVRbWUC174VJbbW0aa2PtMxkU');
      
+    echo("$data");
+    echo("hi");
+
     // Функция вызова методов API.
     function sendTelegram($method, $response)
     {
